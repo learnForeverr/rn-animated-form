@@ -1,12 +1,14 @@
 import React from 'react';
-import {StyleSheet, Text, View, StatusBar} from 'react-native';
+import {StyleSheet, View, StatusBar} from 'react-native';
+import Login from './src/components/auth/Login';
 
 const App = () => {
   return (
     <>
       <StatusBar backgroundColor="white" barStyle="dark-content" />
-      <View>
-        <Text>Start From Here</Text>
+
+      <View style={{flex: 1}}>
+        <Login />
       </View>
     </>
   );
